@@ -39,4 +39,5 @@ umake ide eclipse <br>
 
 =====================================================<br>
 curl: <br>
+For those who use php7.2, etc <br>
 sudo apt-get install php7.2-curl<br>
