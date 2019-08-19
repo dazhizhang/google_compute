@@ -11,21 +11,7 @@ simplexml ： ubuntu安装sudo apt-get install php-xml /centos安装yum install 
 ====================================================<br>
 <br>
 zip 安装<br>
-先安装libzip：<br>
-<br>
-sudo wget https://nih.at/libzip/libzip-1.2.0.tar.gz<br>
- sudo tar -zxvf libzip-1.2.0.tar.gz <br>
-cd libzip-1.2.0 <br>
-sudo ./configure <br>
-sudo make && sudo make install<br>
-安装zip：<br>
-<br>
-sudo wget http://pecl.php.net/get/zip-1.13.5.tgz<br>
-sudo tar -zxvf zip-1.13.5.tgz<br>
-cd zip-1.13.5<br>
-sudo usr/local/php/bin/phpize<br>
-sudo ./configure --with-php-config=/usr/local/php/bin/php-config<br>
-sudo make && make install<br>
+sudo apt-get install php7.3-zip
 <br>
 =====================================================<br>
 <br>
