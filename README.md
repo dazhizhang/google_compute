@@ -36,3 +36,7 @@ sudo apt-get install ubuntu-make <br>
 <br>
 使用：<br>
 umake ide eclipse <br>
+
+=====================================================<br>
+curl: <br>
+sudo apt-get install php7.2-curl<br>
